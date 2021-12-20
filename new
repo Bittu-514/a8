@@ -1,0 +1,16 @@
+node(main){
+    stage('Test'){
+        println('My 1st Pipeline Job')
+    }
+    stage('Test My Stage'){
+        println('My 1st PipelineStage Test Job')
+    }
+}
+node{
+    stage('Test1'){
+        println('My 1st Pipeline Job')
+    }
+    stage('Test  My Stage2'){
+        println('My 1st PipelineStage Test Job')
+    }
+}
