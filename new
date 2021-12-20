@@ -1,4 +1,4 @@
-node('master'){
+node('main'){
     stage('Test'){
         println('My 1st Pipeline Job')
     }
